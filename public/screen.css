@@ -37,8 +37,8 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 6rem;
-  margin-right: 16rem;
-  margin-left: 16rem;
+  margin-right: 15.7rem;
+  margin-left: 15.7rem;
   background-color: rgba(66, 63, 63, 0.5);
 }
 .game-container > img {
@@ -47,12 +47,15 @@ body {
 strong {
   font-size: 2rem;
 }
-.foot-container {
-  text-align: center;
+article {
+  background-image: url('/images/react.png');
+  background-repeat: no-repeat;
+  background-position: center;
   margin-bottom: 5rem;
+  width: 100%;
 }
-.foot-container > img {
+/* .foot-container > img {
   border-style: solid;
   border-color: black;
   border-width: 1rem;
-}
+} */
