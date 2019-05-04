@@ -1,3 +1,7 @@
+:root {
+  font-size: 16px;
+}
+
 body {
   background-color: black;
 }
@@ -48,14 +52,78 @@ strong {
   font-size: 2rem;
 }
 article {
+  margin: 0 5rem 5rem 5rem;
+  border-radius: 2px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+  position: relative;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+
+article.react h1 {
   background-image: url('/images/react.png');
+}
+
+article.fizz-buzz h1 {
+  background-image: url('/images/code.png');
+}
+
+article div {
+  margin: 2.5rem;
+}
+
+article h1 {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  background-size: 100%;
+  object-fit: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 5rem;
-  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-/* .foot-container > img {
-  border-style: solid;
-  border-color: black;
-  border-width: 1rem;
-} */
+
+article h2 {
+  color: black;
+  background-color: white;
+}
+
+article span {
+  font-size: 0.4rem;
+}
+
+article.reading {
+  position: absolute;
+  right: 1rem;
+  bottom: -0.6rem;
+  background-color: blue;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+footer h1 {
+  text-align: center;
+  color: white;
+}
+
+.tweet {
+  display: flex;
+  justify-content: center;
+}
+
+.tweet img {
+  /* height: auto;
+  width: auto; */
+  max-width: 70px;
+  max-height: 70px;
+  padding: 1rem;
+}
+
+footer p {
+  color: white;
+}
