@@ -27,7 +27,7 @@ body {
 .text-box {
   position: relative;
   color: black;
-  font-size: 1.17em;
+  font-size: 1em;
   height: 100px;
   width: 500px;
   margin-top: 81px;
@@ -35,6 +35,7 @@ body {
   background-color: rgb(172, 172, 172);
   border-radius: 20px;
   padding-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .carrot {
@@ -98,18 +99,21 @@ article h1 {
   background-position: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 article h2 {
   color: black;
   background-color: white;
   padding-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 article p {
   padding-right: 0.5rem;
   padding-left: 1rem;
   padding-bottom: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 article span {
@@ -154,7 +158,6 @@ footer p {
 
 @media (max-width: 900px) {
   .game-container {
-    background-color: lemonchiffon;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
