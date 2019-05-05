@@ -162,4 +162,7 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
   }
+  article {
+    min-width: 372px;
+  }
 }
